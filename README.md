@@ -32,7 +32,7 @@ Una vez dentro de la máquina se pueden ejecutar comandos arbitrarios. Cuando en
     vagrant> sudo apt-get install curl wget
     vagrant> exit
 
-El último comando nos saca de la máquina. Si vamos a seguir trabajando en ella podemos volver a entrar con `vagrant ssh`. Si queremos pararla podemos ejecutar `vagrant halt`, aunque suele ser más normal suspenderla con `vagrant suspend`. Para arrancarla si está parada usamos `vagrant start`, y si la habíamos suspendido usamos `vagrant resume`.
+El último comando nos saca de la máquina. Si vamos a seguir trabajando en ella podemos volver a entrar con `vagrant ssh`. Si queremos pararla podemos ejecutar `vagrant halt`, aunque suele ser más normal suspenderla con `vagrant suspend`. Para arrancarla si está parada usamos `vagrant up` de nuevo, y si la habíamos suspendido usamos `vagrant resume`. 
 
 Si quieremos destruir la máquina y que se liberen todos los recursos asociados (como uso de disco):
 
