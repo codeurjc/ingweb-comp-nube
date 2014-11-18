@@ -1,5 +1,9 @@
 # Ingeniería web y computación en la nube
 
+## Instalar vagrant
+
+Para la asignatura es necesario tener un entorno preparado para arrancar máquinas virtuales. Nos basaremos en vagrant, una tecnología que permite gestionar máquinas virtuales usando virtualbox por debajo. Existen implementaciones de virtualbox y vagrant para diferentes sistemas operativos y arquitecturas. Instala [vagrant](https://www.vagrantup.com/downloads.html) y [virtualbox](https://www.virtualbox.org/wiki/Downloads) siguiendo sus respectivas instrucciones.
+
 ## Importar las imágenes
 
 Dependiendo de tu arquitectura debes importar la imagen que corresponda:
