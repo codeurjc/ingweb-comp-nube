@@ -4,6 +4,8 @@
 
 Para la asignatura es necesario tener un entorno preparado para arrancar máquinas virtuales. Nos basaremos en vagrant, una tecnología que permite gestionar máquinas virtuales usando virtualbox por debajo. Existen implementaciones de virtualbox y vagrant para diferentes sistemas operativos y arquitecturas. Instala [vagrant](https://www.vagrantup.com/downloads.html) y [virtualbox](https://www.virtualbox.org/wiki/Downloads) siguiendo sus respectivas instrucciones.
 
+Vagrant utiliza una clave privada para poder acceder a las máquinas sin contraseña. Esta clave es una clave insegura que se guarda en la carpeta `~/.vagrant.d/insecure_private_key`. Para utilizar las imágenes que se indican a continuación es necesario sustituir la clave por el fichero `insecure_private_key` de este repositorio.
+
 ## Importar las imágenes
 
 Dependiendo de tu arquitectura debes importar la imagen que corresponda:
