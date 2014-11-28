@@ -1,4 +1,4 @@
-# Ingeniería web y computación en la nube
+# Vagrant, elasticidad y otras movidas del cloud
 
 ## Instalar vagrant
 
@@ -23,7 +23,7 @@ Nota: cuando creas un proyecto indicando la imagen que quieres utilizar y esa im
     mkdir my_project && cd my_project
     vagrant init gortazar/ingweb-comp-nube-64
 
-Creamos una carpeta para el proyecto y ejecutamos `vagrant init` para que nos genere un fichero de configuración para nuestra máquina. Si le indicamos el nombre de la imagen en la que nos queremos basar, lo incluye directamente en el fichero. Este fichero se llama `Vagrantfile` y define las características básicas de la máquina como nombre, memoria, o el tipo de red que queremos usar. 
+Creamos una carpeta para el proyecto y ejecutamos `vagrant init` para que nos genere un fichero de configuración para nuestra máquina. Si le indicamos el nombre de la imagen en la que nos queremos basar, lo incluye directamente en el fichero. Este fichero se llama `Vagrantfile` y define las características básicas de la máquina como nombre, memoria, o el tipo de red que queremos usar.
 
 Para probar la configuración de la máquina podemos arrancarla y acceder a ella por ssh:
 
@@ -38,7 +38,7 @@ Una vez dentro de la máquina se pueden ejecutar comandos arbitrarios. Cuando en
     vagrant> sudo apt-get install curl wget
     vagrant> exit
 
-El último comando nos saca de la máquina. Si vamos a seguir trabajando en ella podemos volver a entrar con `vagrant ssh`. Si queremos pararla podemos ejecutar `vagrant halt`, aunque suele ser más normal suspenderla con `vagrant suspend`. Para arrancarla si está parada usamos `vagrant up` de nuevo, y si la habíamos suspendido usamos `vagrant resume`. 
+El último comando nos saca de la máquina. Si vamos a seguir trabajando en ella podemos volver a entrar con `vagrant ssh`. Si queremos pararla podemos ejecutar `vagrant halt`, aunque suele ser más normal suspenderla con `vagrant suspend`. Para arrancarla si está parada usamos `vagrant up` de nuevo, y si la habíamos suspendido usamos `vagrant resume`.
 
 Si quieremos destruir la máquina y que se liberen todos los recursos asociados (como uso de disco):
 
