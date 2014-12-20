@@ -7,3 +7,4 @@ target
 .springBeans
 vagrant/data/*.jar
 *.box
+vagrant-elasticity-cloud/vagrant/data/*

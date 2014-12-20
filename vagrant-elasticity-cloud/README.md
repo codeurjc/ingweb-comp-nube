@@ -44,3 +44,14 @@ Si quieremos destruir la máquina y que se liberen todos los recursos asociados 
 
     vagrant destroy
 
+## Referencias
+
+* https://www.digitalocean.com/community/tutorials/how-to-use-haproxy-to-set-up-http-load-balancing-on-an-ubuntu-vps
+* https://www.digitalocean.com/community/tutorials/an-introduction-to-haproxy-and-load-balancing-concepts
+* http://www.gumtree.com/devteam/2014-06-04-enabling-mongodb-replica-set.html
+* http://krams915.blogspot.com.es/2012/02/mongodb-replica-sets-with-spring-data.html
+* http://docs.mongodb.org/v2.4/tutorial/deploy-replica-set/
+* http://docs.spring.io/spring/docs/current/spring-framework-reference/html/cache.html
+* http://www.javacreed.com/caching-made-easy-with-spring/
+* http://spring.io/guides/gs/accessing-data-mongodb/
+* https://docs.vagrantup.com/v2/
